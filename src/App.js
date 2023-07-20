@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import ContentEnergyPros from './components/ContentEnergyPros';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
+import OurProjects from './components/OurProjects';
+
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
     <Navbar />
     <AboutUs />
     <ContentEnergyPros />
+    <OurProjects />
+    <Footer />
     </div >
 
   )
