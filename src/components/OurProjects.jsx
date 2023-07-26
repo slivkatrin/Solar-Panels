@@ -40,20 +40,19 @@ function OurProjects() {
         const interval = setInterval(() => {
             nextSlide()
         }, 4000)
-
         // Clean up the interval when the component is unmounted
         return () => clearInterval(interval)
-    }, [currentIndex]) // Re-run the effect when the currentIndex changes
-
+    }, [currentIndex]) 
     return (
-        <div className="w-full py-16 px-4">
+        <div className="w-full py-6 px-4">
+            
             {/* TODO: create color palette */}
             <h1 className="text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto text-center">
                 OUR PROJECTS
             </h1>
 
             <div className="max-w-[1340px] mx-auto grid md:grid-cols-2">
-                <div className="flex flex-col justify-center md:ml-8">
+                <div className="flex flex-col justify-center md:ml-8 ">
                     <p className="text-[#a1d322] font-normal md:text-1xl sm:text-1xl text-1xl">
                         KNOW US BETTER
                     </p>
