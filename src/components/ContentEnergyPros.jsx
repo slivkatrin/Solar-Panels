@@ -3,17 +3,14 @@ import eco from '../assets/eco.png'
 import lowPrice from '../assets/low-price.png'
 import renewEnergy from '../assets/renew-energy.png'
 import price from '../assets/price-tag.png'
-import commonStyles from '../commonStyles';
 const ContentEnergyPros = () => {
 
     return(
 <div className='w-full py-16 px-4'>
     <div className='max-w-[1240px] mx-auto grid'>
     <div className='flex flex-col justify-center md:ml-8'>
-        <p className='text-[#a1d322] font-normal md:text-1xl sm:text-1xl text-1xl mx-auto'>Sustainability benefits</p>
-        <div className={`bg-${commonStyles.accentColorGreen}`}>
-        Primary Color
-      </div>
+        <p className='text-accent-greenс font-normal md:text-1xl sm:text-1xl text-1xl mx-auto'>Sustainability benefits</p>
+       
         <h1 className='text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto '>BENEFITS OF SOLAR ENERGY</h1>
 </div>
 </div>

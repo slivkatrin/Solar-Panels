@@ -47,7 +47,7 @@ function OurProjects() {
         <div className="w-full py-6 px-4">
             
             {/* TODO: create color palette */}
-            <h1 className="text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto text-center">
+            <h1 className="text-[primaryColor] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto text-center">
                 OUR PROJECTS
             </h1>
 

@@ -11,6 +11,9 @@ function App() {
   return (
     <div>
     <Navbar />
+    <div className="pt-20"> {/* Add padding to the top of the main content */}
+        {/* Your main content here */}
+      </div>
     <AboutUs />
     <ContentEnergyPros />
     <OurProjects />
