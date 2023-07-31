@@ -52,7 +52,7 @@ function OurProjects() {
             </h1>
 
             <div className="max-w-[1340px] mx-auto grid md:grid-cols-2">
-                <div className="flex flex-col justify-center md:ml-8 ">
+                <div className="flex flex-col justify-center md:ml-8 mr-8 ">
                     <p className="text-[#a1d322] font-normal md:text-1xl sm:text-1xl text-1xl">
                         KNOW US BETTER
                     </p>
@@ -60,7 +60,7 @@ function OurProjects() {
                     <h1 className="text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 text-left ">
                         Our assembly
                     </h1>
-                    <p>
+                    <p className='w-full '>
                         Green Kraft is a company based in Poland and Germany,
                         specializing in solar panel installations. We offer
                         innovative and environmentally-friendly energy solutions
