@@ -14,7 +14,7 @@ const ContentEnergyPros = () => {
         <h1 className='text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto '>BENEFITS OF SOLAR ENERGY</h1>
 </div>
 </div>
-<div className='w-full py-[6rem] px-4'>
+<div className='w-full pt-[6rem] px-4'>
 <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 gap-8'>
     <div className='w-full flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 cursor-pointer shadow-custom-color'>
         <img className='w-20 mx-auto mt-[-3rem] bg-white' src={eco} alt="/" />
@@ -46,7 +46,7 @@ const ContentEnergyPros = () => {
     </div>
 </div>
 <div className='flex justify-center'> {/* Add the 'flex' and 'justify-center' classes here */}
-    <button className='bg-[#a1d322] w-[200px] rounded-md font-medium my-6 py-3 text-white'>
+    <button className='bg-accentColorGreen w-[200px] rounded-md font-medium my-6 py-3 text-white'>
       Learn more
     </button>
   </div>

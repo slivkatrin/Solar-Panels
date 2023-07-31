@@ -12,7 +12,7 @@ module.exports = {
       colors:{
         primaryColor: '#ff5733',
         secondaryColor: '#33ff57',
-        'accent-green': '#a1d322',
+        accentColorGreen: '#a1d322',
       },
     },
   },
