@@ -18,7 +18,8 @@ function App() {
                 {/* Your main content here */}
             </div>
             <Banner />
-            <div className="py-20">
+            <div className='bg-gray-300'>
+            <div className="py-20 ">
                 <p className="text-[#a1d322] font-normal md:text-1xl sm:text-1xl text-center text-1xl">
                     LET'S CALCULATE
                 </p>
@@ -26,14 +27,14 @@ function App() {
                     Solar Energy Calculator
                 </h1>
             </div>
-
-            <div className="flex flex-wrap justify-center items-center">
+            <div className="flex flex-wrap justify-center items-center ">
                 <div className="w-full md:w-2/3 p-4 bg-gray-200">
                     <SolarCalculatorInfo />
                 </div>
                 <div style={{ width: '400px' }} className="p-4 ">
                     <SolarCalculator />
                 </div>
+            </div>
             </div>
             <AboutUs />
             <ContentEnergyPros />
