@@ -37,7 +37,7 @@ const SolarCalculator = () => {
   };
 
   return (
-    <div className="p-6 bg-gray-100 rounded-lg shadow">
+    <div className="p-6 bg-gray-200 rounded-lg shadow">
       <h2 className="text-2xl font-semibold mb-4">Solar Energy Calculator</h2>
       <div className="mb-4">
         <label className="block text-sm font-medium">Roof Size (m²)</label>
@@ -50,7 +50,7 @@ const SolarCalculator = () => {
       </div>
       <div className="mb-4">
         <label className="block text-sm font-medium">
-          Monthly Electricity Bill (USD)
+          Monthly Electricity Bill (EUR)
         </label>
         <input
           type="number"

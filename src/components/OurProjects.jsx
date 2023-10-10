@@ -61,8 +61,7 @@ function OurProjects() {
                         Our assembly
                     </h1>
                     <p className='w-full '>
-                        Green Kraft is a company based in Poland and Germany,
-                        specializing in solar panel installations. We offer
+                        Green Kraft is a company based in Poland and Germany, specializing in<p className="font-bold">solar panel installations.</p>We offer
                         innovative and environmentally-friendly energy solutions
                         for residential and commercial buildings, helping our
                         clients reduce their environmental impact and lower
@@ -76,7 +75,7 @@ function OurProjects() {
                         to an ecological future.{' '}
                     </p>
                     <button className="bg-[#a1d322] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-white">
-                        Learn more
+                    View Projects
                     </button>
                 </div>
 
