@@ -13,6 +13,9 @@ module.exports = {
         primaryColor: '#ff5733',
         secondaryColor: '#33ff57',
         accentColorGreen: '#a1d322',
+        fadedLeft: '#3b82f680 ',
+        fadedRight: '#4cb5456b'
+
       },
     },
   },

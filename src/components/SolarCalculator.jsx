@@ -37,8 +37,8 @@ const SolarCalculator = () => {
   };
 
   return (
-    <div className="p-6 bg-gray-200 rounded-lg shadow">
-      <h2 className="text-2xl font-semibold mb-4">Solar Energy Calculator</h2>
+    <div className="p-6 bg-white rounded-lg shadow-md">
+      <h2 className="text-3xl font-semibold mb-4">Calculator</h2>
       <div className="mb-4">
         <label className="block text-sm font-medium">Roof Size (m²)</label>
         <input
@@ -79,7 +79,7 @@ const SolarCalculator = () => {
       </div>
       <button
         onClick={handleCalculate}
-        className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+        className="bg-[#575AD2] text-white py-2 px-4 rounded-md hover:bg-blue-600"
       >
         Calculate
       </button>
