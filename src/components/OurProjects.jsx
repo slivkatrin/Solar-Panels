@@ -4,6 +4,8 @@ import solarImg1 from '../assets/solar2.jpg'
 import solarImg2 from '../assets/solar3.jpg'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
+import { Link } from 'react-router-dom';
+
 
 function OurProjects() {
     const slides = [
@@ -74,9 +76,11 @@ function OurProjects() {
                         and reliable services. At Green Kraft, we are committed
                         to an ecological future.{' '}
                     </p>
+                    <Link to="/newpage">
                     <button className="bg-[#a1d322] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-white">
                     View Projects
                     </button>
+                    </Link>
                 </div>
 
                 <div className="max-w-[840px] h-[580px] w-full m-auto py-16 px-4 relative group">

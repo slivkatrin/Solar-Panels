@@ -38,7 +38,7 @@ const SolarCalculator = () => {
 
   return (
     <div className="p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-3xl font-semibold mb-4">Calculator</h2>
+      <h2 className="text-2xl font-semibold mb-4 ">Energy Production calculator</h2>
       <div className="mb-4">
         <label className="block text-sm font-medium">Roof Size (m²)</label>
         <input
