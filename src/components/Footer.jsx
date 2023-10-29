@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+
 const Footer = () => {
     return (
         <footer className="bg-zinc-700">
@@ -48,10 +49,7 @@ const Footer = () => {
                             </h2>
                             <ul className="text-gray-300 font-medium">
                                 <li>
-                                    <a
-                                        href=""
-                                        className="hover:underline"
-                                    >
+                                    <a href="" className="hover:underline">
                                         Facebook
                                     </a>
                                 </li>

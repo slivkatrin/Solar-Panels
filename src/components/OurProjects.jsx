@@ -4,8 +4,7 @@ import solarImg1 from '../assets/solar2.jpg'
 import solarImg2 from '../assets/solar3.jpg'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
-import { Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom'
 
 function OurProjects() {
     const slides = [
@@ -44,10 +43,9 @@ function OurProjects() {
         }, 4000)
         // Clean up the interval when the component is unmounted
         return () => clearInterval(interval)
-    }, [currentIndex]) 
+    }, [currentIndex])
     return (
         <div className="w-full py-6 px-4">
-            
             {/* TODO: create color palette */}
             <h1 className="text-[primaryColor] md:text-5xl sm:text-3xl text-2xl font-bold py-2 mx-auto text-center">
                 OUR PROJECTS
@@ -62,13 +60,15 @@ function OurProjects() {
                     <h1 className="text-[#555555] md:text-5xl sm:text-3xl text-2xl font-bold py-2 text-left ">
                         Our assembly
                     </h1>
-                    <p className='w-full '>
-                        Green Kraft is a company based in Poland and Germany, specializing in<p className="font-bold">solar panel installations.</p>We offer
-                        innovative and environmentally-friendly energy solutions
-                        for residential and commercial buildings, helping our
-                        clients reduce their environmental impact and lower
-                        energy costs. Our priority in business is sustainable
-                        development and ecology.
+                    <p className="w-full ">
+                        Green Kraft is a company based in Poland and Germany,
+                        specializing in
+                        <p className="font-bold">solar panel installations.</p>
+                        We offer innovative and environmentally-friendly energy
+                        solutions for residential and commercial buildings,
+                        helping our clients reduce their environmental impact
+                        and lower energy costs. Our priority in business is
+                        sustainable development and ecology.
                         <br /> <br />
                         We deliver high-quality and personalized solar energy
                         solutions that cater to the specific needs of our
@@ -77,9 +77,9 @@ function OurProjects() {
                         to an ecological future.{' '}
                     </p>
                     <Link to="/newpage">
-                    <button className="bg-[#a1d322] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-white">
-                    View Projects
-                    </button>
+                        <button className="bg-[#a1d322] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-white">
+                            View Projects
+                        </button>
                     </Link>
                 </div>
 
