@@ -14,7 +14,10 @@ const Banner = () => {
                         By selling excess solar energy to the grid
                     </p>
                     <div className="mt-4">
-                        <Button variant="gradient" className="rounded- bg-[#575AD2] w-[200px] text-white py-3">
+                        <Button
+                            variant="gradient"
+                            className="rounded- bg-[#575AD2] w-[200px] text-white py-3"
+                        >
                             Learn more
                         </Button>
                     </div>
@@ -31,4 +34,4 @@ const Banner = () => {
     )
 }
 
-export default Banner;
+export default Banner

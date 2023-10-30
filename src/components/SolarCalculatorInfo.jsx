@@ -1,4 +1,5 @@
 import React from 'react'
+
 const SolarCalculatorInfo = () => {
     return (
         <div className="flex flex-col items-center justify-center">

@@ -1,21 +1,23 @@
-import React from 'react';
-import logo from '../assets/logo.png';
-import { useState } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import React from 'react'
+import logo from '../assets/logo.png'
+import { useState } from 'react'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
+import { LinkElement } from './Link'
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(false)
 
     const handleNav = () => {
-        setNav(!nav);
-    };
+        setNav(!nav)
+    }
 
     return (
-        <div className="w-full flex justify-between fixed top-0 left-0 bg-white shadow-xl items-center h-20 z-50 mx-auto px-4 text-grey">
+        <div className="w-full flex justify-between fixed top-0 left-0 bg-white shadow-xl items-center h-20 z-50 mx-auto px-4 text-grey mb-10">
             <img className="h-12 m-1" src={logo} alt="" />
             <ul className="hidden md:flex">
-                <li className="p-4">Home</li>
-                <li className="p-4">Projects</li>
+                <LinkElement path={'/'} content={'Home'} />
+                <LinkElement path={'/newpage'} content={'Projects'} />
                 <li className="p-4">Service</li>
                 <li className="p-4">Contact</li>
                 <button className="m-2">EN</button>
@@ -45,8 +47,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Navbar;
-
+export default Navbar
