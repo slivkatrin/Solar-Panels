@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="w-full flex justify-between fixed top-0 left-0 bg-white shadow-xl items-center h-20 z-50 mx-auto px-4 text-grey mb-10">
+        <div className="w-full flex justify-between fixed top-0 left-0 bg-white shadow-md items-center h-20 z-50 mx-auto px-4 text-grey mb-10">
             <img className="h-12 m-1" src={logo} alt="" />
             <ul className="hidden md:flex">
                 <LinkElement path={'/'} content={'Home'} />
